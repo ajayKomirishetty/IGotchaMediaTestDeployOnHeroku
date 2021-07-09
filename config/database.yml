@@ -83,4 +83,4 @@ production:
   <<: *default
   database: IGotchaMediaTest_railstest_production
   username: IGotchaMediaTest_railstest
-  password: "7354c95556f104dc31f4dea7c410de01ceba96a76cbceafdac05109efb2ddc80"
+  password: "<%= ENV['IGOTCHAMEDIATEST_RAILSTEST_DATABASE_PASSWORD'] %>"
